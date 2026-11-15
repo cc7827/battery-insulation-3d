@@ -191,7 +191,8 @@
     #panel #desc{font-size:10.5px;margin-top:6px}
 
     /* 放大镜：右下，压到滑块上方 */
-    #mag{width:92px !important;height:92px !important;right:8px !important;bottom:auto !important;top:auto !important}
+    /* 放大镜：与左下“仪表提示照片”同一水平带（照片 bottom:96px，高约24vh，取其中心约150px） */
+    #mag{position:fixed !important;width:92px !important;height:92px !important;right:8px !important;top:auto !important;bottom:158px !important;z-index:35}
     #magTag{font-size:9px;padding:2px 7px}
 
     /* 仪表浮层在手机上不显示（仪表信息已在照片里） */
